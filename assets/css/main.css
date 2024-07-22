@@ -4027,6 +4027,50 @@ input, select, textarea {
 
 
 
+.publications, .tryhackme-walkthroughs, .mock-audit-report {
+    margin: 2em 0;
+	text-align: left;
+}
+
+.publications h3, .tryhackme-walkthroughs h3, .mock-audit-report h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333; /* Adjust color as per your theme */
+}
+
+.publications ul, .tryhackme-walkthroughs ul, .mock-audit-report ul {
+    list-style: none;
+    padding: 0;
+}
+
+.publications li, .tryhackme-walkthroughs li, .mock-audit-report li {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    background: #f9f9f9; /* Adjust background color as per your theme */
+    border-radius: 5px;
+}
+
+.publications li a, .tryhackme-walkthroughs li a, .mock-audit-report li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #C77189; /* Adjust link color as per your theme */
+}
+
+.publications li p, .tryhackme-walkthroughs li p, .mock-audit-report li p {
+    margin: 0.5em 0 0;
+    color: #666; /* Adjust text color as per your theme */
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .publications, .tryhackme-walkthroughs, .mock-audit-report {
+        margin: 1em 0;
+    }
+}
+
+
+
+
 
 /* Footer */
 
