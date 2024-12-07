@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import heroImage from '../assets/images/hero-image.jpg';
 
+
 function Main() {
 
   return (
