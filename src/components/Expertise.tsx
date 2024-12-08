@@ -1,10 +1,10 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faJs, faPython, faRust, faReact, faDocker } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHtml5, faJs, faPython, faRust, faReact, faDocker } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import wireshark from '../assets/svg/wireshark-light.svg';
+
 
 const labelsFirst = [
     "React",

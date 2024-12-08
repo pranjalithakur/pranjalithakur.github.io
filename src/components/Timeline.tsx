@@ -153,7 +153,7 @@ function Timeline() {
         </VerticalTimeline>
         {modalIsOpen && (
           <Modal open={modalIsOpen} onClose={closeModal}>
-          <h2>{modalContent.title}</h2>
+          <h2 className="exp-title">{modalContent.title}</h2>
           {modalContent.projects.length > 0 && (
             <ul>
               {modalContent.projects.map((project, index) => (

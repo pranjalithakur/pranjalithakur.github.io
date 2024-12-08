@@ -6,9 +6,6 @@ import mock04 from '../assets/images/projects/blockchain.png';
 import mock05 from '../assets/images/projects/zkp-mod.png';
 import mock06 from '../assets/images/projects/attack-mod.png';
 import mock07 from '../assets/images/projects/nft_mod.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
 import '../assets/styles/Project.scss';
 
 function Project() {

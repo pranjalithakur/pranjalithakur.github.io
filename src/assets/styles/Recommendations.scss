@@ -1,0 +1,60 @@
+.recommendations-container {
+    padding: 2rem;
+    margin-left: 100px;
+  }
+  
+  .recommendations-list {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping to the next line */
+    gap: 2rem; /* Add spacing between items */
+    padding: 1rem;
+  }
+
+  .recommendations-list::-webkit-scrollbar {
+    height: 8px; /* Adjust scrollbar height */
+  }
+  
+  .recommendations-list::-webkit-scrollbar-thumb {
+    background-color: #c7c7c8; /* Scrollbar color */
+    border-radius: 10px;
+  }
+  
+  .recommendation-item {
+    background: white;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    text-align: center;
+    width: 270px;
+  }
+  
+  .item-name {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .recommendation-link {
+    color: rgb(62, 62, 59) !important;
+    background-color: white !important;
+    font-size: 0.8rem !important;
+    height: 25px !important;
+
+    text-decoration: none;
+    // color: white;
+    // background-color: #615297;
+    padding: 0.5rem 1rem;
+    border-radius: 17px;
+    font-weight: bold;
+    border: solid 1px;
+    // font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recommendation-link:hover {
+    background-color: #4e417a;
+  }
+  
